@@ -1,0 +1,22 @@
+{
+  "name": "snazzwaggler.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snazzwaggler/Snazzwaggler.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snazzwaggler/Snazzwaggler.github.io/issues"
+  },
+  "homepage": "https://github.com/Snazzwaggler/Snazzwaggler.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
