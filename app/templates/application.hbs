@@ -1,7 +1,12 @@
-{{page-title "Snazzwaggler"}}
+<div> 
+    {{!-- add a container class --}}
 
-{{! The following component displays Ember's default welcome message. }}
-<WelcomePage />
-{{! Feel free to remove this! }}
+    <NavBar/>
 
-{{outlet}}
+    <div class="body">
+        {{outlet}}
+    </div>
+
+    {{!-- TODO: include footer (?) --}}
+
+</div>

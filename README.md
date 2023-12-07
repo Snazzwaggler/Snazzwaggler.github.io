@@ -1,32 +1,22 @@
-# snazzwaggler
+# Kymberly Larson
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Welcome to my webpage! Here is the place to learn about my experience as a 
+Computer Scientist and to see all of the cool projects I've worked on. 
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+You will need the following things properly installed on your computer. 
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with npm)
 * [Ember CLI](https://cli.emberjs.com/release/)
 * [Google Chrome](https://google.com/chrome/)
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd snazzwaggler`
-* `npm install`
-
 ## Running / Development
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
@@ -45,7 +35,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+My app is deployed through Github pages. 
 
 ## Further Reading / Useful Links
 
@@ -53,4 +43,7 @@ Specify what it takes to deploy your app.
 * [ember-cli](https://cli.emberjs.com/release/)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+### Todo
+- Build with faster optimization, Windows is not ideal
+- Implement sass, scss
