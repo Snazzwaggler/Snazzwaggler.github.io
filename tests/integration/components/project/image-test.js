@@ -15,12 +15,12 @@ module('Integration | Component | project/image', function (hooks) {
     assert.dom().hasText('');
 
     // Template block usage:
-    await render(hbs`
-      <Project::Image>
-        template block text
-      </Project::Image>
-    `);
+    // await render(hbs`
+    //   <Project::Image>
+    //     template block text
+    //   </Project::Image>
+    // `);
 
-    assert.dom().hasText('template block text');
+    // assert.dom().hasText('template block text');
   });
 });

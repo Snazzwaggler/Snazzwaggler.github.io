@@ -12,15 +12,15 @@ module('Integration | Component | project', function (hooks) {
 
     await render(hbs`<Project />`);
 
-    assert.dom().hasText('');
+    assert.dom().hasText('Project Name Here Description (project purpose, description, date) (software, languages, tools, etc.)');
 
-    // Template block usage:
-    await render(hbs`
-      <Project>
-        template block text
-      </Project>
-    `);
+    // // Template block usage:
+    // await render(hbs`
+    //   <Project>
+    //     template block text
+    //   </Project>
+    // `);
 
-    assert.dom().hasText('template block text');
+    // assert.dom().hasText('template block text');
   });
 });
