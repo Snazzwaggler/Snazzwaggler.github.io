@@ -1,5 +1,10 @@
 name: CI
 
+# CI pipeline runs when code changes 
+# Makes sure new code works when integrated, compiles code, runs tests
+
+# CD goes step further and deploys built code into production
+
 on:
   push:
     branches:
