@@ -2,13 +2,14 @@
 
 
 <ul>
-    <li>
-        <Project::Project/>
-    </li>
-    <li>
-        <Project::Project/>
-    </li>
-    <li>
-        <Project::Project/>
-    </li>
+{{#each @model as |project|}}
+    <Project::Project 
+        @name={{project.name}}
+        @image={{project.display_image}}
+        @description={{project.description}}
+        @id={{project.id}}
+    />
+{{else}}
+    Uh-oh! Where did all the projects go?
+{{/each}}
 </ul>

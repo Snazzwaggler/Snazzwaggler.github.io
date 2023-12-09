@@ -1,0 +1,29 @@
+/* Needs General (*, h, p etc.) */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, div, span, a, button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    color: rgb(197, 197, 197);
+}
+
+body {
+    background-color: rgb(63, 63, 63);
+}
+
+/* p : martin-top, bottom, block display by default*/
+
+a {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+}
+
+button {
+    font-size: 100%;
+}
+
+

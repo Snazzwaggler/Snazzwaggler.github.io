@@ -1,6 +1,19 @@
-@import url("components/nav-bar.css");
+/* Outside Styles */
+/* @import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic); */
+
+/* Overall Styles */
+@import url("base.css");
+@import url("general.css");
+
+/* Layout Styles */
+@import url("components/layout/nav-bar.css");
+
+/* Template Styles */
+@import url("templates/home.css");
+@import url("templates/projects.css");
+
+/* Component Styles */
 @import url("components/project/project.css");
 
-/* Needs General (*, h, p etc.) */
 
-/* Needs button, title */
+

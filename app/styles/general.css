@@ -1,0 +1,30 @@
+
+/* Button */
+.button {
+    display: inline-block;
+
+    border: none;
+    border-radius: 5px;
+    opacity: 0.9;
+
+    color: rgb(243, 79, 79);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+
+/* Image */
+.image-small {
+    height: 100px;
+    width: 100px;
+}
+
+.image-big {
+    height: 500px;
+    width: 500px;
+}
+
