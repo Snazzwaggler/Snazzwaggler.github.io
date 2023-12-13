@@ -1,9 +1,7 @@
 .container {
   /* border: 1px solid blue; */
   border-bottom: 1px solid whitesmoke;
-
   display: flex;
-
   font-size: larger;
 }
 
@@ -13,5 +11,5 @@
 }
 
 .item:hover {
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(43 43 43);
 }

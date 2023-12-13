@@ -1,0 +1,10 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(43, 43, 43);
+
+    height: 64px; /* todo: figure out how to calc height so don't use manual values */
+    width: 100%;
+}

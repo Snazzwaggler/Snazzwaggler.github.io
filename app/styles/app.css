@@ -7,6 +7,7 @@
 
 /* Layout Styles */
 @import url("components/layout/nav-bar.css");
+@import url("components/layout/footer.css");
 
 /* Template Styles */
 @import url("templates/home.css");
@@ -14,6 +15,4 @@
 
 /* Component Styles */
 @import url("components/project/project.css");
-
-
-
+@import url("components/icon.css");

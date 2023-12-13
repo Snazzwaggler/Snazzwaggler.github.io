@@ -1,12 +1,11 @@
-<div> 
-    {{!-- add a container class --}}
+<div class="page">
 
     <Layout::NavBar/>
 
-    <div class="body">
+    <div class="content">
         {{outlet}}
     </div>
 
-    {{!-- TODO: include footer (?) --}}
+    <Layout::Footer/>
 
 </div>
