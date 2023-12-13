@@ -1,4 +1,17 @@
 .container {
-  /* background-color: blue !important; */
-  font-size: medium;
+  /* border: 1px solid blue; */
+  border-bottom: 1px solid whitesmoke;
+
+  display: flex;
+
+  font-size: larger;
+}
+
+.item {
+  padding: 10px;
+  padding-right: 15px;
+}
+
+.item:hover {
+  background-color: rgb(54, 54, 54);
 }

@@ -1,16 +1,25 @@
 <nav class="container">
 
-    <LinkTo @route="index">
-        Home
-    </LinkTo>
+        <LinkTo 
+            @route="index"
+            class="item"
+        >
+            Home
+        </LinkTo>
+        
+        <LinkTo 
+            @route="projects"
+            class="item"
+        >
+            Projects
+        </LinkTo>
 
-    <LinkTo @route="projects">
-        Projects
-    </LinkTo>
-
-    <LinkTo @route="contact">
-        Contact
-    </LinkTo>
+        <LinkTo 
+            @route="contact"
+            class="item"
+        >
+            Contact
+        </LinkTo>
 
 </nav>
 
