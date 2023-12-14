@@ -1,15 +1,16 @@
 {{page-title "Projects"}}
 
+<div class="grid">
 
-<ul>
-{{#each @model as |project|}}
-    <Project::Project 
-        @name={{project.name}}
-        @image={{project.display_image}}
-        @description={{project.description}}
-        @id={{project.id}}
-    />
-{{else}}
-    Uh-oh! Where did all the projects go?
-{{/each}}
-</ul>
+    {{#each @model as |project|}}
+        <div class="grid-item">
+            <Project::Project 
+                @name={{project.name}}
+                @image={{project.display_image}}
+                @description={{project.description}}
+                @id={{project.id}}
+            />
+        </div>
+    {{/each}}
+
+</div>

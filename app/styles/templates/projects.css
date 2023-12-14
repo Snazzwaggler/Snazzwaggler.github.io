@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 85%;
+    margin: 10px;
+}
+
+.grid-item {
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #343434, -1px -1px 3px #343434;
+    height: 250px;
+    width: 200px;
+    margin: 10px;
+}

@@ -12,7 +12,11 @@ module('Integration | Component | project', function (hooks) {
 
     await render(hbs`<Project />`);
 
-    assert.dom().hasText('Project Name Here Description (project purpose, description, date) (software, languages, tools, etc.)');
+    assert
+      .dom()
+      .hasText(
+        'Project Name Here Description (project purpose, description, date) (software, languages, tools, etc.)',
+      );
 
     // // Template block usage:
     // await render(hbs`

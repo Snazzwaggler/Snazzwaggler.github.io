@@ -44,7 +44,7 @@ button {
 .content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 
   /* border: 1px red solid; */
   /* min-height: 100% !important; */

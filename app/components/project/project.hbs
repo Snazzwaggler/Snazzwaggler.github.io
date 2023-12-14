@@ -1,15 +1,26 @@
-<article>
+<article
+    class="project"
+    {{on 'mouseenter' this.toggleView}}
+    {{on 'mouseleave' this.toggleView}}
+>
 
     <Project::Image
         src={{@image}}
         alt="Example Picture"
+        class="{{if this.isPreview "preview" "background"}}"
     />
 
-    {{@name}}
+    {{#if this.isPreview}}
+        <div class="info-block">
 
-    <div>
-        {{@description}}
-    </div>
+            <div class="title">
+                {{@name}}
+            </div>
+
+            {{@description}}
+
+        </div>
+    {{/if}}
 
 
 </article>
