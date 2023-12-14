@@ -1,9 +1,11 @@
 /* Outside Styles */
+
 /* @import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic); */
 
 /* Overall Styles */
 @import url("base.css");
 @import url("general.css");
+@import url("index.css");
 
 /* Layout Styles */
 @import url("components/layout/nav-bar.css");

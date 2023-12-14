@@ -1,0 +1,28 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+}
+
+.profile-photo {
+    border-radius: 5px;
+    height: 550px;
+    margin-right: 10px;
+}
+
+
+.info {
+    font-size: large;
+    width: 40%;
+    padding-bottom: 100px;
+}
+
+.name {
+    font-size: 3em;
+    font-style: italic;
+    text-shadow: rgb(43, 43, 43) 3px 3px;
+    margin-bottom: 10px;
+}
