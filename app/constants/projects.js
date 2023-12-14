@@ -24,22 +24,20 @@ export const projects = [
     name: 'Domino Model',
     display_image: '/assets/project-displays/anm-domino-model-with.jpeg',
     software: ['Houdini', 'Nuke'],
-    description: 
+    description:
       'Modelled and shaded a realistic domino. Can you guess which one it is?',
-      // 'Places domino models with variable physical qualities along a spline.',
+    // 'Places domino models with variable physical qualities along a spline.',
   },
   {
     name: 'Candy House',
     display_image: '/assets/project-displays/anm-candy-house.jpeg',
     software: ['Houdini'],
-    description: 
-      'Crafted a procedural candy house',
+    description: 'Crafted a procedural candy house',
   },
   {
     name: 'Procedural Crayons',
     display_image: '/assets/project-displays/crayonsWithTextures.png',
     software: ['Maya'],
-    description: 
-      'Maya Python script to generate crayons and crayon box.',
+    description: 'Maya Python script to generate crayons and crayon box.',
   },
 ];
