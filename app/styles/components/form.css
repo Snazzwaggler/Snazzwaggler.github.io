@@ -1,0 +1,13 @@
+.form {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: column;
+    
+    margin: 20px;
+    height: 80%;
+}
+
+.label {
+    margin-bottom: 10px;
+    border: 1px solid red;
+}

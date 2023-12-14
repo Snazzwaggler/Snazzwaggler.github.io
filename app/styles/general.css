@@ -1,33 +1,35 @@
 /* Button */
 .button {
-    display: inline-block;
-    border: 1px solid whitesmoke;
-    border-radius: 5px;
-    background-color: rgb(216, 216, 216);
-    opacity: 0.9;
-    color: rgb(96, 96, 96);
-    font-size: large;
-    font-weight: bold;
+  display: inline-block;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: rgb(216, 216, 216);
+  opacity: 0.9;
+  color: rgb(96, 96, 96);
+  font-size: large;
+  font-weight: bold;
 
-    line-height: normal;
+  line-height: normal;
 
-    padding: 5px;
+  padding: 5px;
 
-    margin-top: 30px;
-    margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  width: fit-content;
 }
 
 .button:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Image */
 .image-small {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
 .image-big {
-    height: 500px;
-    width: 500px;
+  height: 500px;
+  width: 500px;
 }

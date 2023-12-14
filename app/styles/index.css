@@ -1,29 +1,28 @@
 .home {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20px;
-    width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+  width: 85%;
 }
 
 .profile-photo {
-    border-radius: 5px;
-    height: 550px;
-    margin-right: 10px;
+  border-radius: 5px;
+  height: 550px;
+  margin-right: 10px;
 }
 
-
 .info {
-    font-size: large;
-    width: 40%;
-    padding-bottom: 80px;
+  font-size: large;
+  width: 40%;
+  padding-bottom: 10px;
 }
 
 .name {
-    color: rgb(225, 225, 225);
-    font-size: 3em;
-    font-style: italic;
-    text-shadow: rgb(43, 43, 43) 3px 3px;
-    margin-bottom: 10px;
+  color: rgb(225, 225, 225);
+  font-size: 3em;
+  font-style: italic;
+  text-shadow: rgb(43, 43, 43) 3px 3px;
+  margin-bottom: 10px;
 }
