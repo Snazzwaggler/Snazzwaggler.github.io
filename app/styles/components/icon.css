@@ -1,11 +1,11 @@
 .icon {
-    height: 35px;
-    width: 35px;
-    /* todo: what if icon does not have equal aspect ratio? */
+  height: 35px;
+  width: 35px;
+  /* todo: what if icon does not have equal aspect ratio? */
 
-    margin-top: 2px;
-    margin-bottom: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 
-    margin-left: 6px;
-    margin-right: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
