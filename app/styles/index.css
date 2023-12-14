@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 20px;
-    width: 80%;
+    width: 85%;
 }
 
 .profile-photo {
@@ -17,7 +17,7 @@
 .info {
     font-size: large;
     width: 40%;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .name {

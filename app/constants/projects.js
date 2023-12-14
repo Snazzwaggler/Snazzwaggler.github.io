@@ -8,29 +8,38 @@ export const projects = [
   },
   {
     name: 'Kiwi Bounce',
-    display_image: '/assets/project-displays/anm-train-open.png',
+    display_image: '/assets/project-displays/kiwi-bounce-copy.png',
     software: ['Unity', 'Maya'],
     description:
       'Two-player battle arena game where you try to launch your opponent off the platform.',
   },
   {
     name: 'Ray Tracer',
-    display_image: '/assets/project-displays/anm-train-open.png',
+    display_image: '/assets/project-displays/rayTracer2Render3.png',
     software: ['C++'],
     description:
       'Generates images of circles and rectangles from various lighting angles.',
   },
   {
-    name: 'Domino Tool',
-    display_image: '/assets/project-displays/anm-candy-house.jpeg',
-    software: ['Houdini'],
+    name: 'Domino Model',
+    display_image: '/assets/project-displays/anm-domino-model-with.jpeg',
+    software: ['Houdini', 'Nuke'],
     description: 
-      'Places domino models with variable physical qualities along a spline.',
+      'Modelled and shaded a realistic domino. Can you guess which one it is?',
+      // 'Places domino models with variable physical qualities along a spline.',
   },
   {
     name: 'Candy House',
     display_image: '/assets/project-displays/anm-candy-house.jpeg',
     software: ['Houdini'],
-    description: null,
+    description: 
+      'Crafted a procedural candy house',
+  },
+  {
+    name: 'Procedural Crayons',
+    display_image: '/assets/project-displays/crayonsWithTextures.png',
+    software: ['Maya'],
+    description: 
+      'Maya Python script to generate crayons and crayon box.',
   },
 ];
