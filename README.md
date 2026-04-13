@@ -1,4 +1,4 @@
-# Kymberly Larson
+# Kyz Larson
 
 Welcome to my webpage! Here is the place to learn about my experience as a 
 Computer Scientist and to see all of the cool projects I've worked on. 
