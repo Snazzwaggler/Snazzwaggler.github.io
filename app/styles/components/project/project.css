@@ -5,10 +5,8 @@
 .preview,
 .background {
   border-radius: 5px;
-
   height: 250px;
   width: 200px;
-
   object-fit: cover;
 }
 
@@ -20,10 +18,8 @@
   position: absolute;
   z-index: 2;
   color: whitesmoke;
-
   height: 236px;
   width: 186px;
-
   padding: 7px;
   overflow-x: hidden;
 }
