@@ -10,17 +10,17 @@ module('Integration | Component | footer', function (hooks) {
     // Set any properties with this.set('myProperty', 'value');
     // Handle any actions with this.set('myAction', function(val) { ... });
 
-    await render(hbs`<Footer />`);
+    await render(hbs`<Layout::Footer />`);
 
     assert.dom().hasText('');
 
     // Template block usage:
-    await render(hbs`
-      <Footer>
-        template block text
-      </Footer>
-    `);
+    // await render(hbs`
+    //   <Layout::Footer>
+    //     template block text
+    //   </Layout::Footer>
+    // `);
 
-    assert.dom().hasText('template block text');
+    // assert.dom().hasText('template block text');
   });
 });

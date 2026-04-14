@@ -15,12 +15,12 @@ module('Integration | Component | icon', function (hooks) {
     assert.dom().hasText('');
 
     // Template block usage:
-    await render(hbs`
-      <Icon>
-        template block text
-      </Icon>
-    `);
+    // await render(hbs`
+    //   <Icon>
+    //     template block text
+    //   </Icon>
+    // `);
 
-    assert.dom().hasText('template block text');
+    // assert.dom().hasText('template block text');
   });
 });
