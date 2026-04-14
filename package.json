@@ -5,7 +5,7 @@
   "description": "Small description for snazzwaggler goes here",
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "", 
   "directories": {
     "doc": "doc",
     "test": "tests"
